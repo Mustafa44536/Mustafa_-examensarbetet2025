@@ -58,6 +58,13 @@ def main():
         );
     """)
 
+    con.execute("""
+        CREATE TABLE IF NOT EXISTS dim_area (
+            area_id INTEGER PRIMARY KEY,
+            area TEXT UNIQUE
+        );
+    """)
+
     # 3) Fyll dimensions (enkelt sätt: skapa om varje gång för G-nivå)
     con.execute("""
         INSERT INTO dim_date
@@ -89,6 +96,15 @@ def main():
         ORDER BY source;
     """)
 
+    con.execute("""
+        INSERT INTO dim_area
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY area) AS area_id,
+            area
+        FROM (SELECT DISTINCT area FROM stg_prices WHERE area IS NOT NULL)
+        ORDER BY area;
+    """)
+
     # 4) Fact table
     con.execute("""
         CREATE TABLE IF NOT EXISTS fact_prices (
@@ -96,13 +112,15 @@ def main():
             date_id INTEGER,
             country_id INTEGER,
             source_id INTEGER,
+            area_id INTEGER,
             price DOUBLE,
             currency TEXT,
             unit TEXT,
             granularity TEXT,
             FOREIGN KEY(date_id) REFERENCES dim_date(date_id),
             FOREIGN KEY(country_id) REFERENCES dim_country(country_id),
-            FOREIGN KEY(source_id) REFERENCES dim_source(source_id)
+            FOREIGN KEY(source_id) REFERENCES dim_source(source_id),
+            FOREIGN KEY(area_id) REFERENCES dim_area(area_id)
         );
     """)
     con.execute("""
@@ -112,6 +130,7 @@ def main():
             d.date_id,
             c.country_id,
             s.source_id,
+            a.area_id,
             stg.price,
             stg.currency,
             stg.unit,
@@ -120,6 +139,7 @@ def main():
         JOIN dim_date d ON d.date = stg.date
         JOIN dim_country c ON c.country = stg.country
         JOIN dim_source s ON s.source = stg.source
+        JOIN dim_area a ON a.area = stg.area
         WHERE stg.price IS NOT NULL;
     """)
 

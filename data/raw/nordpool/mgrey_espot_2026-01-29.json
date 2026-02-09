@@ -1,0 +1,587 @@
+{
+  "date": "2026-01-29",
+  "SE1": [
+    {
+      "hour": 0,
+      "price_eur": 10.48,
+      "price_sek": 110.68,
+      "kmeans": 0
+    },
+    {
+      "hour": 1,
+      "price_eur": 10.4,
+      "price_sek": 109.88,
+      "kmeans": 0
+    },
+    {
+      "hour": 2,
+      "price_eur": 10.19,
+      "price_sek": 107.65,
+      "kmeans": 0
+    },
+    {
+      "hour": 3,
+      "price_eur": 10.02,
+      "price_sek": 105.86,
+      "kmeans": 0
+    },
+    {
+      "hour": 4,
+      "price_eur": 10.29,
+      "price_sek": 108.75,
+      "kmeans": 0
+    },
+    {
+      "hour": 5,
+      "price_eur": 11.98,
+      "price_sek": 126.55,
+      "kmeans": 0
+    },
+    {
+      "hour": 6,
+      "price_eur": 13.89,
+      "price_sek": 146.76,
+      "kmeans": 1
+    },
+    {
+      "hour": 7,
+      "price_eur": 15.23,
+      "price_sek": 160.92,
+      "kmeans": 1
+    },
+    {
+      "hour": 8,
+      "price_eur": 18.43,
+      "price_sek": 194.72,
+      "kmeans": 3
+    },
+    {
+      "hour": 9,
+      "price_eur": 18.53,
+      "price_sek": 195.79,
+      "kmeans": 3
+    },
+    {
+      "hour": 10,
+      "price_eur": 18.32,
+      "price_sek": 193.54,
+      "kmeans": 3
+    },
+    {
+      "hour": 11,
+      "price_eur": 17.26,
+      "price_sek": 182.4,
+      "kmeans": 2
+    },
+    {
+      "hour": 12,
+      "price_eur": 16.93,
+      "price_sek": 178.86,
+      "kmeans": 2
+    },
+    {
+      "hour": 13,
+      "price_eur": 16.62,
+      "price_sek": 175.54,
+      "kmeans": 2
+    },
+    {
+      "hour": 14,
+      "price_eur": 16.84,
+      "price_sek": 177.84,
+      "kmeans": 2
+    },
+    {
+      "hour": 15,
+      "price_eur": 17.18,
+      "price_sek": 181.5,
+      "kmeans": 2
+    },
+    {
+      "hour": 16,
+      "price_eur": 17.11,
+      "price_sek": 180.78,
+      "kmeans": 2
+    },
+    {
+      "hour": 17,
+      "price_eur": 17.41,
+      "price_sek": 183.94,
+      "kmeans": 2
+    },
+    {
+      "hour": 18,
+      "price_eur": 16.86,
+      "price_sek": 178.15,
+      "kmeans": 2
+    },
+    {
+      "hour": 19,
+      "price_eur": 15.74,
+      "price_sek": 166.26,
+      "kmeans": 2
+    },
+    {
+      "hour": 20,
+      "price_eur": 13.89,
+      "price_sek": 146.72,
+      "kmeans": 1
+    },
+    {
+      "hour": 21,
+      "price_eur": 12.97,
+      "price_sek": 137.02,
+      "kmeans": 1
+    },
+    {
+      "hour": 22,
+      "price_eur": 12.28,
+      "price_sek": 129.79,
+      "kmeans": 1
+    },
+    {
+      "hour": 23,
+      "price_eur": 10.88,
+      "price_sek": 114.94,
+      "kmeans": 0
+    }
+  ],
+  "SE2": [
+    {
+      "hour": 0,
+      "price_eur": 10.4,
+      "price_sek": 109.84,
+      "kmeans": 0
+    },
+    {
+      "hour": 1,
+      "price_eur": 10.4,
+      "price_sek": 109.87,
+      "kmeans": 0
+    },
+    {
+      "hour": 2,
+      "price_eur": 10.19,
+      "price_sek": 107.63,
+      "kmeans": 0
+    },
+    {
+      "hour": 3,
+      "price_eur": 10,
+      "price_sek": 105.68,
+      "kmeans": 0
+    },
+    {
+      "hour": 4,
+      "price_eur": 10.1,
+      "price_sek": 106.75,
+      "kmeans": 0
+    },
+    {
+      "hour": 5,
+      "price_eur": 10.6,
+      "price_sek": 111.96,
+      "kmeans": 0
+    },
+    {
+      "hour": 6,
+      "price_eur": 11.83,
+      "price_sek": 124.94,
+      "kmeans": 1
+    },
+    {
+      "hour": 7,
+      "price_eur": 14.96,
+      "price_sek": 158.06,
+      "kmeans": 2
+    },
+    {
+      "hour": 8,
+      "price_eur": 16.78,
+      "price_sek": 177.28,
+      "kmeans": 3
+    },
+    {
+      "hour": 9,
+      "price_eur": 16.93,
+      "price_sek": 178.87,
+      "kmeans": 3
+    },
+    {
+      "hour": 10,
+      "price_eur": 16.31,
+      "price_sek": 172.28,
+      "kmeans": 3
+    },
+    {
+      "hour": 11,
+      "price_eur": 15.46,
+      "price_sek": 163.31,
+      "kmeans": 3
+    },
+    {
+      "hour": 12,
+      "price_eur": 14.54,
+      "price_sek": 153.6,
+      "kmeans": 2
+    },
+    {
+      "hour": 13,
+      "price_eur": 14.48,
+      "price_sek": 153.02,
+      "kmeans": 2
+    },
+    {
+      "hour": 14,
+      "price_eur": 14.53,
+      "price_sek": 153.47,
+      "kmeans": 2
+    },
+    {
+      "hour": 15,
+      "price_eur": 14.97,
+      "price_sek": 158.19,
+      "kmeans": 2
+    },
+    {
+      "hour": 16,
+      "price_eur": 15.4,
+      "price_sek": 162.72,
+      "kmeans": 3
+    },
+    {
+      "hour": 17,
+      "price_eur": 16.08,
+      "price_sek": 169.84,
+      "kmeans": 3
+    },
+    {
+      "hour": 18,
+      "price_eur": 15.72,
+      "price_sek": 166.06,
+      "kmeans": 3
+    },
+    {
+      "hour": 19,
+      "price_eur": 14.14,
+      "price_sek": 149.3,
+      "kmeans": 2
+    },
+    {
+      "hour": 20,
+      "price_eur": 12.5,
+      "price_sek": 132.12,
+      "kmeans": 1
+    },
+    {
+      "hour": 21,
+      "price_eur": 11.52,
+      "price_sek": 121.66,
+      "kmeans": 1
+    },
+    {
+      "hour": 22,
+      "price_eur": 11.04,
+      "price_sek": 116.62,
+      "kmeans": 0
+    },
+    {
+      "hour": 23,
+      "price_eur": 10.22,
+      "price_sek": 107.91,
+      "kmeans": 0
+    }
+  ],
+  "SE3": [
+    {
+      "hour": 0,
+      "price_eur": 10.4,
+      "price_sek": 109.84,
+      "kmeans": 0
+    },
+    {
+      "hour": 1,
+      "price_eur": 10.4,
+      "price_sek": 109.87,
+      "kmeans": 0
+    },
+    {
+      "hour": 2,
+      "price_eur": 10.19,
+      "price_sek": 107.63,
+      "kmeans": 0
+    },
+    {
+      "hour": 3,
+      "price_eur": 10,
+      "price_sek": 105.68,
+      "kmeans": 0
+    },
+    {
+      "hour": 4,
+      "price_eur": 10.11,
+      "price_sek": 106.78,
+      "kmeans": 0
+    },
+    {
+      "hour": 5,
+      "price_eur": 10.58,
+      "price_sek": 111.78,
+      "kmeans": 0
+    },
+    {
+      "hour": 6,
+      "price_eur": 11.8,
+      "price_sek": 124.66,
+      "kmeans": 1
+    },
+    {
+      "hour": 7,
+      "price_eur": 14.98,
+      "price_sek": 158.21,
+      "kmeans": 2
+    },
+    {
+      "hour": 8,
+      "price_eur": 16.74,
+      "price_sek": 176.9,
+      "kmeans": 3
+    },
+    {
+      "hour": 9,
+      "price_eur": 16.92,
+      "price_sek": 178.71,
+      "kmeans": 3
+    },
+    {
+      "hour": 10,
+      "price_eur": 16.25,
+      "price_sek": 171.66,
+      "kmeans": 3
+    },
+    {
+      "hour": 11,
+      "price_eur": 15.41,
+      "price_sek": 162.79,
+      "kmeans": 3
+    },
+    {
+      "hour": 12,
+      "price_eur": 14.47,
+      "price_sek": 152.89,
+      "kmeans": 2
+    },
+    {
+      "hour": 13,
+      "price_eur": 14.43,
+      "price_sek": 152.44,
+      "kmeans": 2
+    },
+    {
+      "hour": 14,
+      "price_eur": 14.46,
+      "price_sek": 152.78,
+      "kmeans": 2
+    },
+    {
+      "hour": 15,
+      "price_eur": 14.92,
+      "price_sek": 157.57,
+      "kmeans": 2
+    },
+    {
+      "hour": 16,
+      "price_eur": 15.39,
+      "price_sek": 162.6,
+      "kmeans": 3
+    },
+    {
+      "hour": 17,
+      "price_eur": 16.08,
+      "price_sek": 169.88,
+      "kmeans": 3
+    },
+    {
+      "hour": 18,
+      "price_eur": 15.71,
+      "price_sek": 165.92,
+      "kmeans": 3
+    },
+    {
+      "hour": 19,
+      "price_eur": 14.14,
+      "price_sek": 149.32,
+      "kmeans": 2
+    },
+    {
+      "hour": 20,
+      "price_eur": 12.47,
+      "price_sek": 131.72,
+      "kmeans": 1
+    },
+    {
+      "hour": 21,
+      "price_eur": 11.49,
+      "price_sek": 121.38,
+      "kmeans": 1
+    },
+    {
+      "hour": 22,
+      "price_eur": 11.02,
+      "price_sek": 116.48,
+      "kmeans": 0
+    },
+    {
+      "hour": 23,
+      "price_eur": 10.26,
+      "price_sek": 108.42,
+      "kmeans": 0
+    }
+  ],
+  "SE4": [
+    {
+      "hour": 0,
+      "price_eur": 10.39,
+      "price_sek": 109.78,
+      "kmeans": 0
+    },
+    {
+      "hour": 1,
+      "price_eur": 10.4,
+      "price_sek": 109.87,
+      "kmeans": 0
+    },
+    {
+      "hour": 2,
+      "price_eur": 10.19,
+      "price_sek": 107.63,
+      "kmeans": 0
+    },
+    {
+      "hour": 3,
+      "price_eur": 10,
+      "price_sek": 105.67,
+      "kmeans": 0
+    },
+    {
+      "hour": 4,
+      "price_eur": 10.1,
+      "price_sek": 106.65,
+      "kmeans": 0
+    },
+    {
+      "hour": 5,
+      "price_eur": 10.5,
+      "price_sek": 110.97,
+      "kmeans": 0
+    },
+    {
+      "hour": 6,
+      "price_eur": 11.69,
+      "price_sek": 123.55,
+      "kmeans": 1
+    },
+    {
+      "hour": 7,
+      "price_eur": 14.97,
+      "price_sek": 158.15,
+      "kmeans": 2
+    },
+    {
+      "hour": 8,
+      "price_eur": 16.68,
+      "price_sek": 176.19,
+      "kmeans": 3
+    },
+    {
+      "hour": 9,
+      "price_eur": 16.85,
+      "price_sek": 178.04,
+      "kmeans": 3
+    },
+    {
+      "hour": 10,
+      "price_eur": 16.16,
+      "price_sek": 170.75,
+      "kmeans": 3
+    },
+    {
+      "hour": 11,
+      "price_eur": 15.3,
+      "price_sek": 161.65,
+      "kmeans": 2
+    },
+    {
+      "hour": 12,
+      "price_eur": 14.34,
+      "price_sek": 151.42,
+      "kmeans": 2
+    },
+    {
+      "hour": 13,
+      "price_eur": 14.31,
+      "price_sek": 151.15,
+      "kmeans": 2
+    },
+    {
+      "hour": 14,
+      "price_eur": 14.33,
+      "price_sek": 151.36,
+      "kmeans": 2
+    },
+    {
+      "hour": 15,
+      "price_eur": 14.79,
+      "price_sek": 156.23,
+      "kmeans": 2
+    },
+    {
+      "hour": 16,
+      "price_eur": 15.3,
+      "price_sek": 161.58,
+      "kmeans": 2
+    },
+    {
+      "hour": 17,
+      "price_eur": 16.02,
+      "price_sek": 169.18,
+      "kmeans": 3
+    },
+    {
+      "hour": 18,
+      "price_eur": 15.64,
+      "price_sek": 165.2,
+      "kmeans": 3
+    },
+    {
+      "hour": 19,
+      "price_eur": 14.02,
+      "price_sek": 148.16,
+      "kmeans": 2
+    },
+    {
+      "hour": 20,
+      "price_eur": 12.37,
+      "price_sek": 130.64,
+      "kmeans": 1
+    },
+    {
+      "hour": 21,
+      "price_eur": 11.38,
+      "price_sek": 120.19,
+      "kmeans": 1
+    },
+    {
+      "hour": 22,
+      "price_eur": 10.93,
+      "price_sek": 115.51,
+      "kmeans": 1
+    },
+    {
+      "hour": 23,
+      "price_eur": 10.22,
+      "price_sek": 108,
+      "kmeans": 0
+    }
+  ]
+}
