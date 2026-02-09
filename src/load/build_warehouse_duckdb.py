@@ -9,6 +9,13 @@ def main():
 
     con = duckdb.connect(str(DB_PATH))
 
+
+    # Rebuild warehouse from scratch (simplest for G level)
+    con.execute("DROP TABLE IF EXISTS fact_prices;")
+    con.execute("DROP TABLE IF EXISTS dim_date;")
+    con.execute("DROP TABLE IF EXISTS dim_country;")
+    con.execute("DROP TABLE IF EXISTS dim_source;")
+
     # 1) Skapa staging view direkt från CSV
     con.execute(f"""
         CREATE OR REPLACE VIEW stg_prices AS
@@ -52,10 +59,6 @@ def main():
     """)
 
     # 3) Fyll dimensions (enkelt sätt: skapa om varje gång för G-nivå)
-    con.execute("DELETE FROM dim_date;")
-    con.execute("DELETE FROM dim_country;")
-    con.execute("DELETE FROM dim_source;")
-
     con.execute("""
         INSERT INTO dim_date
         SELECT
@@ -102,9 +105,6 @@ def main():
             FOREIGN KEY(source_id) REFERENCES dim_source(source_id)
         );
     """)
-
-    con.execute("DELETE FROM fact_prices;")
-
     con.execute("""
         INSERT INTO fact_prices
         SELECT
