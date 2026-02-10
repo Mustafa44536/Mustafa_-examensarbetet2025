@@ -99,7 +99,14 @@ def append_to_staging(stg_path: Path, new_df: pd.DataFrame):
         out = new_df
 
     stg_path.parent.mkdir(parents=True, exist_ok=True)
-    out.to_csv(stg_path, index=False)
+    # DEDUPE to avoid duplicate appends
+if "time_start" in out.columns:
+    out = out.drop_duplicates(subset=["source","area","time_start"], keep="last")
+else:
+    out = out.drop_duplicates(subset=["source","area","date","hour"], keep="last")
+
+out.to_csv(stg_path, index=False)
+
     return len(new_df), len(out)
 
 def main():
