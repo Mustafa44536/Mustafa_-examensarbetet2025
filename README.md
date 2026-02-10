@@ -1,4 +1,4 @@
-# Mustafa Mahamud DEE24
+# Mustafa Mahamud DE24
 
 # ⚡ Elpris-datapipeline – Data Engineering-projekt
 
