@@ -15,6 +15,7 @@ def main():
     con.execute("DROP TABLE IF EXISTS dim_date;")
     con.execute("DROP TABLE IF EXISTS dim_country;")
     con.execute("DROP TABLE IF EXISTS dim_source;")
+    con.execute("DROP TABLE IF EXISTS dim_area;")
 
     # 1) Skapa staging view direkt från CSV
     con.execute(f"""
