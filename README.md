@@ -1,4 +1,6 @@
-# ⚡ Electricity Price Data Pipeline – Data Engineering Project
+# Mustafa Mahamud DEE24
+
+# ⚡ Elpris-datapipeline – Data Engineering-projekt
 
 ## 📌 Projektöversikt
 
@@ -179,4 +181,5 @@ streamlit run app/dashboard.py
 Projektet demonstrerar ett komplett dataflöde — från rådata till visualiserade insikter.
 
 Genom att implementera en strukturerad datapipeline blev det möjligt att analysera elmarknaden effektivt.
+
 
